@@ -13,7 +13,7 @@ public class WorldCustomer implements Observer{
 	@Override
 	public void update(Observable o, Object arg) {
 		// TODO Auto-generated method stub
-		System.out.println("SecondCustomer "+ weather.getCelsiusTemp());
+		System.out.println("temp for the world: "+ weather.getCelsiusTemp());
 
 	}
 }
