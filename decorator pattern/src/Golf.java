@@ -20,7 +20,7 @@ public class Golf implements IGolf {
 	@Override
 	public String GetTrim() {
 		// TODO Auto-generated method stub
-		return "Golf";
+		return "GOLF";
 	}
 
 	@Override
