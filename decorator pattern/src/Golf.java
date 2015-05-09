@@ -2,7 +2,7 @@
 public class Golf implements IGolf {
 	@Override
 	public double GetCost(){
-		return 20000.00;
+		return 17000.00;
 	}
 
 	@Override

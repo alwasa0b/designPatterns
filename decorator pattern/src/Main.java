@@ -8,11 +8,14 @@ public class Main {
 		IGolf golf = new Golf();
 		IGolf gti = new Gti(golf);
 		
-		System.out.println(golf.GetCost());
-		System.out.println(gti.GetCost());
+		System.out.println("GOLF Wheels: "+golf.GetWheels());
+		System.out.println("GTI Wheels: "+gti.GetWheels());
 		
-		System.out.println(golf.GetWheels());
-		System.out.println(gti.GetWheels());
+		System.out.println("GOLF Engine: "+golf.GetEngine());
+		System.out.println("GTI Engine: "+gti.GetEngine());
+		
+		System.out.println("GOLF MSRP: "+golf.GetCost());
+		System.out.println("GTI MSRP: "+gti.GetCost());
 
 	}
 
