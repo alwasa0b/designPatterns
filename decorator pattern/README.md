@@ -16,6 +16,9 @@ public class Main {
 		
 		System.out.println(golf.GetTrim()+" MSRP: "+golf.GetCost());
 		System.out.println(gti.GetTrim()+" MSRP: "+gti.GetCost());
+		
+		gti.GetEngine().setEngineHealth(false);
+		gti.GetEngine().setEngineHealth(true);
 
 	}
 
@@ -25,7 +28,8 @@ public class Main {
 output:  
 GOLF Wheels: 16 inch  
 GTI Wheels: 18 inch alloy wheels  
-GOLF Engine: 1.8L  
-GTI Engine: 2.0 turbo engine  
+GOLF Engine: Engine@7eab48a7  
+GTI Engine: Engine@1f2f0ce9  
 GOLF MSRP: 17000.0  
 GTI MSRP: 25000.0  
+Turn on Check Engine Light on:   
