@@ -1,8 +1,12 @@
 
 public class Gti extends Trim {
-
+	IEngine engine;
+	Sensor s;
+	
 	public Gti(IGolf baseGolf) {
 		super(baseGolf);
+		this.engine = new Engine(4, 2.0);
+		s = new Sensor(engine);
 	}
 	
 	public double GetCost(){
@@ -10,9 +14,9 @@ public class Gti extends Trim {
 	}
 	
 	@Override
-	public String GetEngine() {
+	public IEngine GetEngine() {
 		// TODO Auto-generated method stub
-		return "2.0 turbo engine";
+		return this.engine;
 	}
 
 	@Override

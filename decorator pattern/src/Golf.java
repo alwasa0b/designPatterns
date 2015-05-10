@@ -1,5 +1,11 @@
 
 public class Golf implements IGolf {
+	public Golf() {
+		this.engine = new Engine(4, 1.7);
+	}
+
+	private IEngine engine;
+
 	@Override
 	public double GetCost(){
 		return 17000.00;
@@ -24,9 +30,9 @@ public class Golf implements IGolf {
 	}
 
 	@Override
-	public String GetEngine() {
+	public IEngine GetEngine() {
 		// TODO Auto-generated method stub
-		return "1.8L";
+		return this.engine;
 	}
 
 	@Override

@@ -4,7 +4,7 @@ public interface IGolf {
 	String GetStereo();
 	String GetWheels();
 	String GetTrim();
-	String GetEngine();
+	IEngine GetEngine();
 	String GetMPG();
 
 }

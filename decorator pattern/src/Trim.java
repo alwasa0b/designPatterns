@@ -30,7 +30,7 @@ public class Trim implements IGolf {
 	}
 
 	@Override
-	public String GetEngine() {
+	public IEngine GetEngine() {
 		// TODO Auto-generated method stub
 		return baseGolf.GetEngine();
 	}

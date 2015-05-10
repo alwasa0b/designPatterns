@@ -17,6 +17,8 @@ public class Main {
 		System.out.println(golf.GetTrim()+" MSRP: "+golf.GetCost());
 		System.out.println(gti.GetTrim()+" MSRP: "+gti.GetCost());
 
+		gti.GetEngine().setEngineHealth(false);
+		gti.GetEngine().setEngineHealth(true);
 	}
 
 }
